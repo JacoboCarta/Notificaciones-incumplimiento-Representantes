@@ -61,6 +61,11 @@ Implementé llaves primarias (PK) en todas las tablas y llaves foráneas (FK) pa
 2. **Unicidad de caso:** Un representante solo puede tener un caso activo en el Comité Electoral a la vez.
 3. **Validación de inasistencia:** Solo el coordinador de gestión humana puede registrar y gestionar todos los incumplimientos, garantizando un control centralizado.
 
+**Requisitos previos adicionales:**
+- Oracle Instant Client 23.x instalado
+- Wallet de Oracle Cloud descomprimido localmente
+- Crear archivo .env con las credenciales (ver .env.example)
+
 ## Instrucciones para ejecutar la aplicación
 1. Clonar el repositorio.
 2. Crear un entorno virtual: `python -m venv .venv`
